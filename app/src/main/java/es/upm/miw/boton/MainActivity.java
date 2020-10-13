@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
         final Observer<Integer> integerObserver = new Observer<Integer>() {
             @Override
             public void onChanged(@Nullable Integer numero) {
-                // Actualiza UI con el valor del tvContador
+                // A este método se llamará cuando cambié el valor el entero observable
+                // En ese momento, actualiza el textView con eon nuevo valor del singleton
                 tvContador.setText(
                         String.format(Locale.getDefault(), "%d", numero)
                 );
