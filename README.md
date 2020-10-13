@@ -1,6 +1,7 @@
 # Boton
 Implementar un botón que al pulsarlo incremente el valor de una TextView. Además utiliza el patrón
-Observer y la clase ViewModel (MiContadorViewModel) para gestionar la actualización del UI.
+Observer y la clase android.arch.lifecycle.ViewModel (MiContadorViewModel) para gestionar la
+actualización del UI con un singleton.
 
 https://developer.android.com/topic/libraries/architecture/viewmodel
 
