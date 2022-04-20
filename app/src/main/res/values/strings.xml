@@ -1,5 +1,3 @@
 <resources>
-    <string name="app_name">Sesión 1: Botón</string>
-    <string name="txtBotón">¡Pulsa!</string>
-    <string name="txtTítulo">Botón y contador</string>
+    <string name="app_name">Boton</string>
 </resources>
